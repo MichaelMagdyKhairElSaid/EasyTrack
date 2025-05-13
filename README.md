@@ -1,27 +1,59 @@
-# Essentials
+# EasyTrack
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+**EasyTrack** is a web application built with Angular that enables efficient task management for multiple users. The platform allows teams and organizations to collaborate on, assign, and track tasks, streamlining workflow and improving productivity.
 
-## Development server
+[Try it Now](https://easy-track-1452024.web.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Angular Core Features
 
-## Build
+- Custom component-based architecture
+- Dynamic content rendering with string interpolation
+- Property binding and computed values
+- Attribute binding
+- Component communication using `@Input` and `@Output`
+- Structural directives: `*ngFor` and `*ngIf`
+- Dynamic CSS styling with class binding
+- Signals and two-way data binding
+- Angular pipes for advanced data display
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Clean Code
 
-## Running unit tests
+- Separation of concerns for maintainability
+- TypeScript types are well-structured and reusable
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Responsive Design
 
-## Running end-to-end tests
+- Optimized for mobile and desktop screens
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Deployment
 
-## Further help
+- Hosted on Firebase
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## Installation
+
+1. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+2. Start the development server:
+    ```bash
+    npm run start
+    ```
+
+3. Navigate to [http://localhost:4200/](http://localhost:4200/).  
+   The application will automatically reload if you change any of the source files.
+
+---
+
+## Code Scaffolding
+
+To generate a new component, run:
+```bash
+ng g c component-name
