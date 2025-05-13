@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "easy-track-1452024",
+    "public": "dist/essentials/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
